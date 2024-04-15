@@ -29,16 +29,16 @@
 
 ## Summary
 
-I would recommend using this model to predict healthy vs. high-risk loans. 
--
+**I would recommend using this model to predict healthy vs. high-risk loans.** 
+
 The logistic regression model predicts both labels well. The healthy loan label (0) had precision and recall scores of 1, meaning the model has perfect precision and recall. This means that all the instances predicted as positive are positive and the model captures all the positive instances correctly. There are no false negatives or false positives. 
 
 The high-risk loan label (1) still had high scores, with precision and recall scores of 0.87 and 0.95 respectively. 
 
 The overall accuracy score across both classes is 0.99. This means that the model not only captures the vast majority of positive instances, but it is also very precise in its positive predictions. 
 
-I believe performance does depend on the problem we are trying to solve. In this case, the model had perfect precision and recall scores for the healthy loan label (1). This means the company can confidently trust that the model is predicting and capturing all positive instances and that there are no false positives. Therefore, the company can trust that all of the healthy loan predictions are actually healthy. 
--
+**I believe performance does depend on the problem we are trying to solve. In this case, the model had perfect precision and recall scores for the healthy loan label (1). This means the company can confidently trust that the model is predicting and capturing all positive instances and that there are no false positives. Therefore, the company can trust that all of the healthy loan predictions are actually healthy.**
+
 Although the precision and recall scores are not perfect for the high-risk loan label (0), they are still quite high. It is a fair assumption that the model is still capturing the majority of positive instances, and that it is fairly accurate in predicting which loans are unhealthy and high-risk. 
 
 In this case, I think it would be more important to monitor the performance of high-risk loans compared to healthy loans. This would allow the lending company to take preventative actions when lending high-risk loans. While the performance of the high-risk loan label is lower than the healthy loan label, it is still very high and the overall accuracy is 0.99 so the company can confidently trust the model's predicitons of high risk loans. 
